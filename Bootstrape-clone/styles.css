@@ -1,13 +1,13 @@
+/* Here please add the document default styles */
+/* Here also add the  typography default styles */
 .mycontainer {
-    background-color: blueviolet;
+    background-color: #712cf9;
     padding: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    
-      
-
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(255, 255, 255, 0.15);
 }
 
 .myrow {
@@ -18,6 +18,45 @@
     width: 1260px; 
     align-items: center;
 
+}
+
+.myrow .col-4 {
+    display: flex;
+    align-items: center;
+}
+
+
+.my-custom-column-1 {}
+
+.my-custom-column-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.my-custom-column-3 {
+    display: flex;
+    justify-content: end;
+}
+
+.my-custom-column-1, i, a {
+    padding: 5px;
+    text-decoration: none !important;
+    font-weight: 500;
+}
+
+.my-custom-column-3, i, a, select {
+    padding: 5px;
+    text-decoration: none !important;
+    font-weight: 500;
+}
+
+
+.my-custom-column-3 select {
+    margin: 5px;
+    background: none;
+    border: 0 !important;
+    color: white;
+    -webkit-appearance: none;
 }
 
 a {
@@ -32,3 +71,40 @@ a {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+
+/* These are the styles for our navigation menu dropdown buttons */
+#version option {
+    color: grey;
+}
+
+#theme option, span{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Here please add medica queries for the whole page */
